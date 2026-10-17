@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /blog/_template.html
+
+Sitemap: https://nisal-dissanayake.github.io/sitemap.xml

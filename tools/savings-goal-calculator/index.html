@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Savings goal calculator (free) | Clear Money Sheets</title>
+<meta name="description" content="Free savings goal calculator. See when you&#x27;ll reach your goal and how much you need to save each month to hit a target date.">
+<link rel="canonical" href="https://nisal-dissanayake.github.io/tools/savings-goal-calculator/">
+<meta property="og:site_name" content="Clear Money Sheets">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Savings goal calculator (free) | Clear Money Sheets">
+<meta property="og:description" content="Free savings goal calculator. See when you&#x27;ll reach your goal and how much you need to save each month to hit a target date.">
+<meta property="og:url" content="https://nisal-dissanayake.github.io/tools/savings-goal-calculator/">
+<meta property="og:image" content="https://nisal-dissanayake.github.io/assets/img/savings-goals-tracker/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1F5F6B">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="/"><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F5F6B"/><rect x="14" y="16" width="36" height="6" rx="3" fill="#F7F4EE"/><rect x="14" y="29" width="24" height="6" rx="3" fill="#F7F4EE"/><rect x="14" y="42" width="30" height="6" rx="3" fill="#E0A458"/></svg><span>Clear Money Sheets</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="visually-hidden">Menu</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16 M4 12h16 M4 17h16"/></svg></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul><li><a href="/#sheets">Spreadsheets</a></li><li><a href="/tools/" aria-current="page">Free tools</a></li><li><a href="/blog/">Blog</a></li><li><a href="/about/">About</a></li><li><a class="btn btn-primary" href="/products/money-reset-2027-bundle/">Get the bundle</a></li></ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<nav class="breadcrumb wrap" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/tools/">Free tools</a></li><li aria-current="page">Savings goal timeline</li></ol></nav>
+<div class="page-head wrap narrow"><h1>Savings goal calculator</h1><p class="lead muted">See when you&#x27;ll reach a savings goal, and how much a month you need to hit a target date. Free, no sign-up. Your numbers stay in your browser.</p></div>
+<div class="wrap narrow" style="padding-bottom:48px">
+  <form id="savings-form" class="tool" novalidate>
+  <div class="fields-2">
+    <div class="field"><label for="sav-target">Savings goal</label><input type="number" id="sav-target" inputmode="decimal" min="0" step="any" value="5000" required aria-describedby="sav-target-hint"><span class="hint" id="sav-target-hint">The total you want to have.</span></div>
+    <div class="field"><label for="sav-saved">Already saved</label><input type="number" id="sav-saved" inputmode="decimal" min="0" step="any" value="500"></div>
+    <div class="field"><label for="sav-monthly">You can save each month</label><input type="number" id="sav-monthly" inputmode="decimal" min="0" step="any" value="250"></div>
+    <div class="field"><label for="sav-date">Target date (optional)</label><input type="month" id="sav-date" placeholder="2027-12" aria-describedby="sav-date-hint"><span class="hint" id="sav-date-hint">Year and month, for example 2027-12.</span></div>
+  </div>
+  <button type="submit" class="btn btn-primary btn-block">Show my timeline</button>
+  <div id="savings-results" class="results" hidden aria-live="polite"></div>
+</form>
+  <div class="callout tool-upsell"><h3>Want the full picture?</h3>
+<p>The <a href="/products/savings-goals-tracker/">Savings Goals &amp; Sinking Funds Tracker</a> spreadsheet does this and more, month by month, and saves your numbers. USD 5, works in Excel and Google Sheets.</p>
+<div class="btn-row"><a class="btn btn-primary" href="/products/savings-goals-tracker/">See the Savings Goals Tracker</a></div></div>
+  <div class="prose" style="padding:32px 0 0"><h2>How the timeline is worked out</h2>
+<p>The calculator takes what's left to save, divides it by your monthly amount and rounds up to whole months, counting from this month. If you add a target date, it also works out the monthly amount you'd need to arrive on time and tells you whether you're on track.</p>
+<p>It assumes no interest, so if your savings earn interest you'll get there a little sooner.</p>
+<h2>Saving for more than one thing?</h2>
+<p>Most people are: an emergency fund, a trip, a yearly bill. Sinking funds (setting aside a little each month for a bill you know is coming) take the sting out of big annual expenses.</p></div>
+  <h2>Questions</h2>
+  <div class="faq"><details><summary>What&#x27;s a sinking fund?</summary><div><p>Money you set aside bit by bit for an expense you know is coming, like car insurance or holidays, so it doesn&#x27;t land all at once.</p></div></details><details><summary>Is this financial advice?</summary><div><p>No. It&#x27;s a calculator based on the numbers you enter. For advice on your situation, talk to a qualified professional.</p></div></details></div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="/" style="color:#fff"><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F5F6B"/><rect x="14" y="16" width="36" height="6" rx="3" fill="#F7F4EE"/><rect x="14" y="29" width="24" height="6" rx="3" fill="#F7F4EE"/><rect x="14" y="42" width="30" height="6" rx="3" fill="#E0A458"/></svg><span>Clear Money Sheets</span></a>
+        <p style="margin-top:12px;max-width:30em">Simple personal-finance spreadsheets for Excel and Google Sheets. Any currency, instant download, no subscriptions.</p>
+        <p>Questions? <a href="mailto:nisal2004dissanayake7@gmail.com">nisal2004dissanayake7@gmail.com</a></p>
+      </div>
+      <div><h2>Spreadsheets</h2><ul><li><a href="/products/2027-budget-planner/">2027 Budget Planner</a></li><li><a href="/products/debt-payoff-calculator/">Debt Payoff Calculator</a></li><li><a href="/products/savings-goals-tracker/">Savings Goals Tracker</a></li><li><a href="/products/biweekly-paycheck-budget/">Biweekly Paycheck Budget</a></li><li><a href="/products/freelancer-tracker/">Freelancer Tracker</a></li><li><a href="/products/net-worth-tracker/">Net Worth Tracker</a></li><li><a href="/products/money-reset-2027-bundle/">The bundle</a></li></ul></div>
+      <div><h2>Free tools</h2><ul><li><a href="/tools/debt-snowball-avalanche/">Debt snowball vs avalanche</a></li><li><a href="/tools/50-30-20-budget/">50/30/20 budget split</a></li><li><a href="/tools/savings-goal-calculator/">Savings goal timeline</a></li><li><a href="/blog/">Blog</a></li></ul></div>
+      <div><h2>Help</h2><ul><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li><li><a href="/refunds/">Refund policy</a></li><li><a href="/terms/">Terms</a></li><li><a href="/privacy/">Privacy</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">© 2026 Clear Money Sheets. Payments are processed by Lemon Squeezy. These spreadsheets are planning tools, not financial advice.</div>
+  </div>
+</footer>
+<script src="/assets/js/main.js" defer></script><script src="/assets/js/tools.js" defer></script>
+</body>
+</html>

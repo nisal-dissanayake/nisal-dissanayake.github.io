@@ -1,0 +1,256 @@
+{
+  "site": {
+    "name": "Clear Money Sheets",
+    "base_url": "https://nisal-dissanayake.github.io",
+    "email": "nisal2004dissanayake7@gmail.com",
+    "owner": "Nisal Dissanayake",
+    "currency": "USD",
+    "tagline": "Simple personal-finance spreadsheets for Excel and Google Sheets."
+  },
+  "products": [
+    {
+      "slug": "2027-budget-planner",
+      "folder": "2027-budget-planner",
+      "name": "2027 Budget Planner",
+      "category": "budget",
+      "category_label": "Budget",
+      "price": 9,
+      "checkout_url": "LINK_TODO",
+      "promise": "Plan every month, log what you spend, and see your whole year on one dashboard.",
+      "seo_description": "A 2027 budget planner spreadsheet for Excel and Google Sheets: monthly budget vs actual, a 50/30/20 check and a yearly dashboard. Any currency, instant download.",
+      "images": [
+        {"file": "01-cover.png", "alt": "2027 Budget Planner cover showing the yearly budget dashboard"},
+        {"file": "02-monthly.png", "alt": "Monthly budget vs actual view with each category against its plan"},
+        {"file": "03-inside.png", "alt": "Inside the budget planner: setup, transactions and annual view tabs"}
+      ],
+      "who_for": [
+        "You want one place to plan each month and see where the money actually went.",
+        "You've tried budgeting apps but don't want to connect your bank account.",
+        "You like the 50/30/20 idea and want to see how close your real spending is."
+      ],
+      "inside": [
+        {"title": "Dashboard", "text": "Income, spending, savings and savings rate for the year, with charts that update as you go."},
+        {"title": "Monthly budget vs actual", "text": "Pick any month to see every category against its plan. Overspending turns red."},
+        {"title": "50/30/20 check", "text": "Your needs / wants / savings split against your own targets."},
+        {"title": "Transactions log", "text": "Date, category from a dropdown, amount. Type and group fill in automatically."},
+        {"title": "Annual view", "text": "Every category by month, with the year total against your plan."},
+        {"title": "Setup", "text": "Up to 8 income sources and 30 expense categories, with your own names and amounts. Change the year in one cell and it works for 2028 and beyond."}
+      ],
+      "first_step": "On the Setup tab, type your income sources and expense categories with a monthly plan for each.",
+      "tool": "50-30-20-budget",
+      "faq": [
+        {"q": "Does it work on a phone?", "a": "You can log transactions in the Google Sheets or Excel mobile apps. The dashboard is easiest to read on a computer or tablet."},
+        {"q": "Can I add my own categories?", "a": "Yes. Fill the empty rows on the Setup tab and they appear everywhere automatically."},
+        {"q": "Does it only work for 2027?", "a": "No. Change the year in one cell on the Setup tab and every date and report follows."}
+      ]
+    },
+    {
+      "slug": "debt-payoff-calculator",
+      "folder": "debt-payoff-calculator",
+      "name": "Debt Payoff Calculator",
+      "category": "debt",
+      "category_label": "Debt",
+      "price": 9,
+      "checkout_url": "LINK_TODO",
+      "promise": "Snowball vs Avalanche side by side: your debt-free date, total interest and a payoff chart.",
+      "seo_description": "Debt payoff calculator spreadsheet for Excel and Google Sheets. Compare debt snowball vs avalanche for up to 8 debts and see your debt-free date. Instant download.",
+      "images": [
+        {"file": "01-cover.png", "alt": "Debt Payoff Calculator cover showing the snowball vs avalanche dashboard"},
+        {"file": "02-dashboard.png", "alt": "Debt payoff dashboard comparing months to debt-free and interest paid for both methods"},
+        {"file": "03-inside.png", "alt": "Inside the debt calculator: debts tab and month-by-month payoff schedule"}
+      ],
+      "who_for": [
+        "You have more than one debt (cards, car loan, personal loan) and want a clear order to pay them off.",
+        "You can't decide between the snowball and avalanche methods and want to see both with your own numbers.",
+        "You want to know what paying a little extra each month is actually worth."
+      ],
+      "inside": [
+        {"title": "Dashboard", "text": "Total debt, your debt-free date under each method, interest saved by choosing Avalanche, and a chart of your balance falling over time."},
+        {"title": "Snowball & Avalanche schedules", "text": "The full month-by-month breakdown for each method: balance, interest, minimum payment, and where every extra payment goes."},
+        {"title": "One extra-payment input", "text": "Change how much extra you pay each month and every number, date and the chart update instantly."},
+        {"title": "Debts tab", "text": "Balances, interest rates (APR) and minimum payments for up to 8 debts, over a 15-year horizon."}
+      ],
+      "first_step": "On the Debts tab, list each debt's balance, APR and minimum payment, plus the extra you can pay each month.",
+      "tool": "debt-snowball-avalanche",
+      "faq": [
+        {"q": "Snowball or Avalanche: which should I use?", "a": "The Dashboard shows both, calculated from your real numbers. Avalanche usually costs less interest overall; Snowball clears small debts fast, which some people find easier to stick with."},
+        {"q": "What if my debt doesn't pay off within 15 years?", "a": "The Dashboard shows \"> 180 months\". Add a larger extra payment and the schedule recalculates."},
+        {"q": "Will it tell me to consolidate or refinance?", "a": "No. It's a planning tool based on the numbers you enter, not a recommendation to refinance, consolidate or take on new debt."}
+      ]
+    },
+    {
+      "slug": "savings-goals-tracker",
+      "folder": "savings-goals-tracker",
+      "name": "Savings Goals & Sinking Funds Tracker",
+      "short_name": "Savings Goals Tracker",
+      "category": "savings",
+      "category_label": "Savings",
+      "price": 5,
+      "checkout_url": "LINK_TODO",
+      "promise": "Track every goal and sinking fund, see which are on track, and when each will be fully funded.",
+      "seo_description": "Savings goals and sinking funds tracker spreadsheet for Excel and Google Sheets. See which goals are on track and when each will be funded. Instant download.",
+      "images": [
+        {"file": "01-cover.png", "alt": "Savings Goals Tracker cover showing the savings dashboard"},
+        {"file": "02-dashboard.png", "alt": "Savings dashboard with progress, on-track flags and projected finish dates for each goal"},
+        {"file": "03-inside.png", "alt": "Inside the savings tracker: goals tab and contributions log"}
+      ],
+      "who_for": [
+        "You're saving for several things at once: an emergency fund, a trip, a laptop.",
+        "You use sinking funds for bills you know are coming, like insurance or holidays.",
+        "You want an early warning when a goal is falling behind, not just a progress bar."
+      ],
+      "inside": [
+        {"title": "Dashboard", "text": "Every goal's progress, whether it's on track for its target date, and the month it'll be fully funded at your current pace, plus a progress chart."},
+        {"title": "Goals tab", "text": "Up to 10 goals or sinking funds: name, target amount, optional target date, starting balance and planned monthly contribution."},
+        {"title": "Contributions log", "text": "Date, goal from a dropdown, amount. Saved totals update automatically."},
+        {"title": "Works for sinking funds too", "text": "Car insurance, Christmas, annual subscriptions: anything you set aside for ahead of time."}
+      ],
+      "first_step": "On the Goals tab, add each goal with its target amount, optional target date and planned monthly amount.",
+      "tool": "savings-goal-calculator",
+      "faq": [
+        {"q": "What's a sinking fund?", "a": "Money you set aside gradually for an expense you know is coming, like car insurance or a big annual bill. Add it as a goal with the bill's due date as the target date."},
+        {"q": "What if a goal has no target date?", "a": "Leave it blank. The Dashboard still tracks progress and shows a projected finish date based on your planned monthly contribution."}
+      ]
+    },
+    {
+      "slug": "biweekly-paycheck-budget",
+      "folder": "biweekly-paycheck-budget",
+      "name": "Biweekly Paycheck Budget",
+      "category": "paycheck",
+      "category_label": "Paycheck",
+      "price": 7,
+      "checkout_url": "LINK_TODO",
+      "promise": "See which bills come out of which paycheck for the whole year, and spot tight pay periods early.",
+      "seo_description": "Biweekly paycheck budget spreadsheet for Excel and Google Sheets. Maps every bill to the paycheck that pays it, with a running balance for the year. Instant download.",
+      "images": [
+        {"file": "01-cover.png", "alt": "Biweekly Paycheck Budget cover showing the paycheck dashboard"},
+        {"file": "02-planner.png", "alt": "Pay period planner listing the bills due in each biweekly pay period"},
+        {"file": "03-inside.png", "alt": "Inside the paycheck budget: setup, planner and paychecks log"}
+      ],
+      "who_for": [
+        "You're paid every two weeks and monthly budgets never quite match your cash flow.",
+        "You want to know in advance which paycheck has to cover rent, and which one is tight.",
+        "You'd like a running balance for the year without tracking every coffee."
+      ],
+      "inside": [
+        {"title": "Pay Period Planner", "text": "Every biweekly pay period for the year from one start date: the bills due in each one, what's left after bills, and your running balance."},
+        {"title": "Dashboard", "text": "Your lowest running balance for the year and exactly which pay period is tightest."},
+        {"title": "Paychecks log (optional)", "text": "Log actual paychecks as they arrive and the planner uses them instead of your typical amount."},
+        {"title": "Setup", "text": "Up to 10 monthly bills with name, amount and due day. A bill due on the 31st is handled correctly in shorter months."}
+      ],
+      "first_step": "On the Setup tab, enter your first payday, your typical paycheck and each monthly bill with its due day.",
+      "tool": null,
+      "faq": [
+        {"q": "I'm paid weekly, not every two weeks. Does it still work?", "a": "Reasonably well: treat two weekly paychecks as one pay period and enter their combined amount."},
+        {"q": "What about months with 3 paychecks?", "a": "The 27-period planner covers slightly over a year, so any 3-paycheck month on your schedule is included automatically."}
+      ]
+    },
+    {
+      "slug": "freelancer-tracker",
+      "folder": "freelancer-tracker",
+      "name": "Freelancer Income & Expense Tracker",
+      "short_name": "Freelancer Tracker",
+      "category": "freelance",
+      "category_label": "Freelance",
+      "price": 9,
+      "checkout_url": "LINK_TODO",
+      "promise": "Log client payments and expenses, and see how much to set aside for tax each quarter.",
+      "seo_description": "Freelancer income and expense tracker spreadsheet for Excel and Google Sheets, with a quarterly tax set-aside and deductible expense totals. Instant download.",
+      "images": [
+        {"file": "01-cover.png", "alt": "Freelancer Tracker cover showing the freelancer dashboard"},
+        {"file": "02-dashboard.png", "alt": "Freelancer dashboard with income, expenses, tax set-aside and quarterly breakdown"},
+        {"file": "03-inside.png", "alt": "Inside the freelancer tracker: transactions log and deductible expenses list"}
+      ],
+      "who_for": [
+        "You freelance or run a side business and income arrives unevenly.",
+        "You want to know how much of each payment is really yours after expenses and tax.",
+        "You'd like deductible expenses already totalled by category at tax time."
+      ],
+      "inside": [
+        {"title": "Dashboard", "text": "Income, expenses, net income, tax set-aside and real take-home for the year, plus a month-by-month chart."},
+        {"title": "Quarterly breakdown", "text": "Income, expenses and tax set-aside for each quarter, useful for estimated tax payments."},
+        {"title": "Deductible expense list", "text": "Every tax-deductible category totalled for the year."},
+        {"title": "Transactions log", "text": "Date, category from a dropdown, amount. Income vs expense and deductible status fill in automatically."},
+        {"title": "Setup", "text": "Your own tax set-aside rate, up to 8 income sources and 15 expense categories."}
+      ],
+      "first_step": "On the Setup tab, enter your tax set-aside rate, your clients or income sources, and your expense categories.",
+      "tool": null,
+      "faq": [
+        {"q": "What tax rate should I use?", "a": "That's up to you. It should combine your income tax and any self-employment or social-security tax, which vary by country and income. The sheet does the arithmetic; check your rate with a tax professional or your local tax authority."},
+        {"q": "Does it file my taxes?", "a": "No. It tracks income and expenses and estimates how much to set aside. It doesn't prepare or file a return."}
+      ]
+    },
+    {
+      "slug": "net-worth-tracker",
+      "folder": "net-worth-tracker",
+      "name": "Net Worth Tracker",
+      "category": "networth",
+      "category_label": "Net worth",
+      "price": 5,
+      "checkout_url": "LINK_TODO",
+      "promise": "Log your accounts once a month and watch your net worth (assets minus debts) trend over time.",
+      "seo_description": "Net worth tracker spreadsheet for Excel and Google Sheets. Log assets and debts monthly and chart your net worth over time. Any currency, instant download.",
+      "images": [
+        {"file": "01-cover.png", "alt": "Net Worth Tracker cover showing the net worth dashboard"},
+        {"file": "02-dashboard.png", "alt": "Net worth dashboard with current net worth, changes and a trend chart"},
+        {"file": "03-inside.png", "alt": "Inside the net worth tracker: accounts tab and monthly snapshots"}
+      ],
+      "who_for": [
+        "You want one number that shows whether you're getting ahead, month to month.",
+        "Your money is spread across several accounts, cards and loans.",
+        "You want a two-minute monthly habit, not daily tracking."
+      ],
+      "inside": [
+        {"title": "Dashboard", "text": "Your current net worth, the change since your last and first check-in, and a chart of the trend."},
+        {"title": "Snapshots", "text": "One row per month, generated from a start date. Fill in each account's balance when you check in."},
+        {"title": "Accounts", "text": "Up to 15 accounts, each marked as an asset or a liability. Enter debts as what you owe and the tracker subtracts them."}
+      ],
+      "first_step": "On the Accounts tab, list your accounts and mark each one as an asset or a liability.",
+      "tool": null,
+      "faq": [
+        {"q": "How often should I update it?", "a": "Once a month is plenty. Net worth moves slowly, and a monthly check-in shows the real trend without day-to-day noise."},
+        {"q": "What about my house or car?", "a": "Use a reasonable current value, not what you paid. An online estimate is fine; update it occasionally."}
+      ]
+    }
+  ],
+  "bundle": {
+    "slug": "money-reset-2027-bundle",
+    "folder": "money-reset-2027-bundle",
+    "name": "Money Reset 2027 Bundle",
+    "price": 19,
+    "checkout_url": "LINK_TODO",
+    "promise": "All six spreadsheets in one download: budget, debt, savings, paychecks, freelance tax and net worth.",
+    "seo_description": "Money Reset 2027: all six Clear Money Sheets spreadsheets in one bundle for Excel and Google Sheets. Budget, debt payoff, savings, paycheck, freelancer and net worth.",
+    "images": [
+      {"file": "01-cover.png", "alt": "Money Reset 2027 bundle cover showing the dashboards of all six spreadsheets"},
+      {"file": "02-inside.png", "alt": "What's inside the Money Reset 2027 bundle"}
+    ],
+    "who_for": [
+      "You want a fresh start for 2027 and more than one part of your money needs attention.",
+      "You'd rather pay once than pick and choose.",
+      "You want every tool in the same familiar layout."
+    ],
+    "faq": [
+      {"q": "Do I need all six?", "a": "No. Most people use two or three regularly (a budget plus whichever of debt, savings, paycheck, freelance or net worth fits) and keep the rest for when they need them."},
+      {"q": "Can I buy them separately instead?", "a": "Yes, each one is sold on its own too. The bundle is for anyone who wants more than one."}
+    ]
+  },
+  "situations": [
+    {"need": "I want a monthly budget and a yearly overview", "slug": "2027-budget-planner"},
+    {"need": "I have several debts and want the fastest or cheapest way out", "slug": "debt-payoff-calculator"},
+    {"need": "I'm saving for a few things at once, or using sinking funds", "slug": "savings-goals-tracker"},
+    {"need": "I'm paid every two weeks and bills don't line up with paydays", "slug": "biweekly-paycheck-budget"},
+    {"need": "I freelance and need to know what to set aside for tax", "slug": "freelancer-tracker"},
+    {"need": "I want to see if I'm getting ahead overall", "slug": "net-worth-tracker"},
+    {"need": "More than one of the above", "slug": "money-reset-2027-bundle"}
+  ],
+  "common_faq": [
+    {"q": "Does it work in Google Sheets?", "a": "Yes. Upload the .xlsx file to Google Drive and choose \"Open with Google Sheets\". Formulas, dropdowns and charts work. You need a free Google account."},
+    {"q": "Does it work on a Mac?", "a": "Yes, in Excel for Mac, Excel on the web, or Google Sheets in any browser. No macros or add-ons are used."},
+    {"q": "Which currency does it use?", "a": "Any. Amounts are plain numbers, so use whatever currency you earn and spend in."},
+    {"q": "How do I get the file?", "a": "Right after checkout you get a download link by email. Checkout is handled by Lemon Squeezy."},
+    {"q": "Is my financial data private?", "a": "Yes. The spreadsheet is a file you keep. Nothing connects to your bank and nothing you type is sent to us."},
+    {"q": "Is this financial advice?", "a": "No. These are planning and tracking tools based on the numbers you enter. For advice on your situation, talk to a qualified professional."},
+    {"q": "What if something doesn't work?", "a": "Email me. I'll help you fix it, and if I can't, I'll refund you."}
+  ]
+}
